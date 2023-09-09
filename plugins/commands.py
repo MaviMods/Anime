@@ -111,7 +111,11 @@ async def start(client, message):
         file_id = data
         pre = ""
     if data.split("-", 1)[0] == "BATCH":
-        sts = await message.reply("please wait")
+        sts = await message.reply("𝙋𝙧𝙤𝙘𝙚𝙨𝙨𝙞𝙣𝙜 𝙮𝙤𝙪𝙧 𝙛𝙞𝙡𝙚𝙨 𝙥𝙡𝙚𝙖𝙨𝙚 𝙬𝙖𝙞𝙩... 
+
+• 𝙈𝙪𝙨𝙩 𝙅𝙤𝙞𝙣 
+1. ✨@mavimovie
+2. ✨@animeversekl")
         file_id = data.split("-", 1)[1]
         msgs = BATCH_FILES.get(file_id)
         if not msgs:
